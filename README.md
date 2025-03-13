@@ -6,12 +6,12 @@ This project is a real-time auction system that allows multiple users to place b
 4. Proper synchronization ensures that bids are handled fairly without conflicts.
 
 ***Core Features:***
-✅ User Registration & Login ===> Users should be able to sign up and authenticate.
-✅ Auction Creation ==> Sellers can create new auctions for items.
-✅ Real-time Bidding ==> Multiple users can place bids simultaneously.
-✅ Multithreaded Bid Processing ==> Ensures no two users can bid at the exact same time without synchronization.
-✅ Auction Closing Mechanism ==> The auction automatically ends after a defined period.
-✅ Winner Announcement – Declares the highest bidder as the winner.
+1. User Registration & Login ===> Users should be able to sign up and authenticate.
+2. Auction Creation ==> Sellers can create new auctions for items.
+3. Real-time Bidding ==> Multiple users can place bids simultaneously.
+4. Multithreaded Bid Processing ==> Ensures no two users can bid at the exact same time without synchronization.
+5. Auction Closing Mechanism ==> The auction automatically ends after a defined period.
+6. Winner Announcement ==> Declares the highest bidder as the winner.
 
 **Implement Core Classes:**
 1. User Class
