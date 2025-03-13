@@ -1,4 +1,4 @@
-**Auction System**
+**Auction System:**
 This project is a real-time auction system that allows multiple users to place bids on various items simultaneously. The core functionality is built using Java multithreading to handle concurrent users, ensuring synchronized access to auction data and preventing race conditions.This system simulates a real-world online auction platform, where:
 1. Users can join an auction and bid.
 2. Bids are processed in real-time.
