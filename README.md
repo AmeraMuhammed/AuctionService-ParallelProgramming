@@ -14,22 +14,22 @@ This project is a real-time auction system that allows multiple users to place b
 6. Winner Announcement ==> Declares the highest bidder as the winner.
 
 **Implement Core Classes:**
-1. User Class
-      Represents buyers & sellers in the system.
-      Attributes: userID, username, bidsPlaced
+1. User Class:
+- Represents buyers & sellers in the system.
+- Attributes: userID, username, bidsPlaced
 2. AuctionItem Class
-      Represents an item being auctioned.
-      Attributes: itemID, itemName, basePrice, highestBid, currentWinner, endTime.
+- Represents an item being auctioned.
+- Attributes: itemID, itemName, basePrice, highestBid, currentWinner, endTime.
 3. Bid Class
-      Represents a bid made by a user.
-      Attributes: bidID, amount, bidder, timestamp.
+- Represents a bid made by a user.
+- Attributes: bidID, amount, bidder, timestamp.
 4. AuctionManager Class (Handles Threading)
-      Starts auctions.
-      Manages concurrent bidding using synchronized methods.
-      Closes auctions after a timeout.
+- Starts auctions.
+- Manages concurrent bidding using synchronized methods.
+- Closes auctions after a timeout.
 5. Multi-threading Mechanism
-      Uses ExecutorService to manage multiple bidding threads.
-      Synchronizes bid updates.
+- Uses ExecutorService to manage multiple bidding threads.
+- Synchronizes bid updates.
 
 **Implement Multi-threaded Bid Processing:**
 1. Each user runs in a separate Thread.
